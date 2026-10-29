@@ -1,0 +1,35 @@
+# Python environments
+venv/
+.venv/
+env/
+maritime-env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+# Large satellite imagery and SNAP outputs
+*.SAFE/
+*.SAFE.zip
+*.data/
+*.dim
+*.tif
+*.tiff
+*.zip
+
+# Temporary files
+*.log
+.ipynb_checkpoints/
+*.gpkg
