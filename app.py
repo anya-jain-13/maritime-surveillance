@@ -693,5 +693,8 @@ def update_dashboard(selected_zones, selected_statuses):
 # 12. RUN THE DASHBOARD
 # ============================================================
 
+# Expose the Flask server for Gunicorn on Render
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=True, port=8051)
